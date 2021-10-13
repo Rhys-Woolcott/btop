@@ -1,5 +1,5 @@
-#Bashtop "whiteout" theme
-#by aristocratos
+#Bashtop "sharletp" theme
+#by Rhys-Woolcott
 
 # Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
 # example for white: "#FFFFFF", "#ff" or "255 255 255".
@@ -10,22 +10,22 @@
 # Use "start", "mid" and "end" for three color gradient
 
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#ff"
+theme[main_bg]="#ffffff"
 
 # Main text color
-theme[main_fg]="#30"
+theme[main_fg]="#333333"
 
 # Title color for boxes
-theme[title]="#10"
+theme[title]="#000000"
 
 # Highlight color for keyboard shortcuts
 theme[hi_fg]="#aaaaff"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#ffffff" 
+theme[selected_bg]="#222222"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#000000"
+theme[selected_fg]="#ffffff"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#aaaaaa"
@@ -46,44 +46,44 @@ theme[net_box]="#000000"
 theme[proc_box]="#000000"
 
 # Box divider line and small boxes line color
-theme[div_line]="#80"
+theme[div_line]="#000000"
 
 # Temperature graph colors
-theme[temp_start]="#00ff00"
+theme[temp_start]="#00aa00"
 theme[temp_mid]="#ffaa00"
 theme[temp_end]="#ff0000"
 
 # CPU graph colors
-theme[cpu_start]="#00ff00"
+theme[cpu_start]="#00aa00"
 theme[cpu_mid]="#ffaa00"
 theme[cpu_end]="#ff0000"
 
 # Mem/Disk free meter
-theme[free_start]="#00ff00"
+theme[free_start]="#00aa00"
 theme[free_mid]="#ffaa00"
 theme[free_end]="#ff0000"
 
 # Mem/Disk cached meter
-theme[cached_start]="#00ff00"
+theme[cached_start]="#00aa00"
 theme[cached_mid]="#ffaa00"
 theme[cached_end]="#ff0000"
 
 # Mem/Disk available meter
-theme[available_start]="#00ff00"
+theme[available_start]="#00aa00"
 theme[available_mid]="#ffaa00"
 theme[available_end]="#ff0000"
 
 # Mem/Disk used meter
-theme[used_start]="#00ff00"
+theme[used_start]="#00aa00"
 theme[used_mid]="#ffaa00"
 theme[used_end]="#ff0000"
 
 # Download graph colors
-theme[download_start]="#00ff00"
+theme[download_start]="#00aa00"
 theme[download_mid]="#ffaa00"
 theme[download_end]="#ff0000"
 
 # Upload graph colors
-theme[upload_start]="#00ff00"
+theme[upload_start]="#00aa00"
 theme[upload_mid]="#ffaa00"
 theme[upload_end]="#ff0000"
