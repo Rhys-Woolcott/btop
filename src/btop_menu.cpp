@@ -61,7 +61,7 @@ namespace Menu {
 
   unordered_flat_map<string, Input::Mouse_loc> mouse_mappings;
 
-   const array<array<string, 3>, 3> menu_normal = {
+   const array<array<string, 3>, 4> menu_normal = {
 		array<string, 3>{
 			"┌─┐┌─┐┌┬┐┬┌─┐┌┐┌┌─┐",
 			"│ │├─┘ │ ││ ││││└─┐",
@@ -73,13 +73,18 @@ namespace Menu {
 			"┴ ┴└─┘┴─┘┴  "
 		},
 		{
+			"┬  ┌─┐┌┐┌┌─┐",
+			"│  ├─┤││││ ┐",
+			"┴─┘┴ ┴┘└┘└─┘"
+		},
+		{
 			"┌─┐ ┬ ┬ ┬┌┬┐",
 			"│─┼┐│ │ │ │ ",
 			"└─┘└└─┘ ┴ ┴ "
 		}
 	};
 
-	const array<array<string, 3>, 3> menu_selected = {
+	const array<array<string, 3>, 4> menu_selected = {
 		array<string, 3>{
 			"╔═╗╔═╗╔╦╗╦╔═╗╔╗╔╔═╗",
 			"║ ║╠═╝ ║ ║║ ║║║║╚═╗",
@@ -89,6 +94,11 @@ namespace Menu {
 			"╦ ╦╔═╗╦  ╔═╗",
 			"╠═╣║╣ ║  ╠═╝",
 			"╩ ╩╚═╝╩═╝╩  "
+		},
+		{
+			"╦  ╔═╗╔╗╔╔═╗",
+			"║  ╠═╣║║║║ ╗",
+			"╩═╝╩ ╩╝╚╝╚═╝"
 		},
 		{
 			"╔═╗ ╦ ╦ ╦╔╦╗ ",

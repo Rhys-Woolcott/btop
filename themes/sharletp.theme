@@ -10,7 +10,7 @@
 # Use "start", "mid" and "end" for three color gradient
 
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#ffffff"
+theme[main_bg]="#efefef"
 
 # Main text color
 theme[main_fg]="#333333"
@@ -19,7 +19,7 @@ theme[main_fg]="#333333"
 theme[title]="#000000"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#aaaaff"
+theme[hi_fg]="#ff6666"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#222222"
@@ -28,7 +28,7 @@ theme[selected_bg]="#222222"
 theme[selected_fg]="#ffffff"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#aaaaaa"
+theme[inactive_fg]="#777777"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
 theme[proc_misc]="#000000"
